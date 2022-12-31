@@ -4,7 +4,7 @@
 
 <main>
   <body>
-    <div id="wrapper">
+    <div>
 
       <!-- Header -->
         <header id="header">
@@ -29,7 +29,7 @@
         </header>
 
       <!-- Main -->
-        <div id="main">
+        <div class="container">
 
           <!-- Intro -->
             <article id="intro">
@@ -90,5 +90,20 @@
 </main>
 
 <style>
-  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 22px;
+    min-height: 275px;
+    border-left: none;
+    border-right: none;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-attachment: fixed;
+    min-height: 218px;
+    width: 885px;
+}
 </style>
